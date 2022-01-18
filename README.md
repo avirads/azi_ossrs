@@ -33,13 +33,13 @@ ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_droplet -q -N ""
 * `DIGITALOCEAN_SSH_PUBLICKEY` is the **SSH Public Key**, by `cat ~/.ssh/id_droplet.pub`
 
 **Step 4:** Click [Run workflow](https://github.com/avirads/azi_ossrs/actions/workflows/droplet.yml) to restart it manually,
-for example, if your droplet PublicIPv4 is `81.70.125.89`:
+for example, if your droplet PublicIPv4 is `159.65.1.122`:
 
-* Website is http://81.70.125.89
-* Publish RTMP to rtmp://81.70.125.89/live/livestream
-* Play RTMP from rtmp://81.70.125.89/live/livestream
-* Play HTTP-FLV from [http://81.70.125.89/live/livestream.flv](http://81.70.125.89/players/srs_player.html?stream=livestream.flv&&autostart=true)
-* Play HLS from [http://81.70.125.89/live/livestream.m3u8](http://81.70.125.89/players/srs_player.html?stream=livestream.m3u8&&autostart=true)
+* Website is http://159.65.1.122
+* Publish RTMP to rtmp://159.65.1.122/live/livestream
+* Play RTMP from rtmp://159.65.1.122/live/livestream
+* Play HTTP-FLV from [http://159.65.1.122/live/livestream.flv](http://159.65.1.122/players/srs_player.html?stream=livestream.flv&&autostart=true)
+* Play HLS from [http://159.65.1.122/live/livestream.m3u8](http://159.65.1.122/players/srs_player.html?stream=livestream.m3u8&&autostart=true)
 
 Try to modify the [README.md](README.md), then push to your repository, your droplet will be updated automatically.
 
